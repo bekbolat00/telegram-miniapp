@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Навигация | SUN</title>
+  <style>
+    body { margin: 0; background: #000; color: #fff; font-family: sans-serif; padding: 20px; }
+    h1 { text-align: center; margin-bottom: 20px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 15px; }
+    .card {
+      background: #111; border-radius: 12px; padding: 20px;
+      text-align: center; font-size: 16px; color: #fff;
+      text-decoration: none; border: 1px solid #333;
+    }
+    .card:hover { background: #222; }
+    footer {
+      position: fixed; bottom: 0; left: 0; right: 0;
+      display: flex; justify-content: space-around;
+      background: #111; padding: 10px 0; border-top: 1px solid #333;
+    }
+    footer div { font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Навигация</h1>
+  <div class="grid">
+    <a href="books.html" class="card">📚 КНИГИ</a>
+    <a href="#" class="card">🎙 ЭФИРЫ</a>
+    <a href="#" class="card">🧠 КУРСЫ</a>
+    <a href="#" class="card">📦 РАЗБОРЫ</a>
+    <a href="#" class="card">🦈 НЕМИКРОБИЗНЕС</a>
+    <a href="#" class="card">📡 АНОМАЛИЯ FM</a>
+  </div>
+  <footer>
+    <div>🏠 Домой</div>
+    <div>👥 Сообщество</div>
+    <div>💬 Чаты</div>
+    <div>⭐ Избранное</div>
+  </footer>
+</body>
+</html>
